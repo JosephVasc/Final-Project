@@ -1,27 +1,25 @@
-alert('hello');
+alert('welcome to our site');
 
-document.writeln('Hello World '); 
+document.writeln('Thank you for viewing'); 
  
+var Password = prompt("enter password");
 
-var customerName = prompt("What show would you like to watch");
+var x = new String("Trevor");             
+var y = new String("password");
 
-var x = new String("friends");             
-var y = new String("John");
-
-
- if( customerName == x ) {
-   document.writeln(customerName);
-   
-   var obj = {"video": {
-  "value": "<iframe title='YouTube video player' type=\"text/html\" width='480' height='320' src='https://www.youtube.com/watch?v=sLisEEwYZvw' frameborder='0' allowFullScreen></iframe>"
-}}
-document.write(obj.video.value);
-
-   
- } 
-else if( customerName == y) {
+if( Password == x ) {
 	document.writeln(customerName);
 }
-else {
-	document.writeln(customerName + " is invalid");
+else if( Password == y) {
+	document.writeln(customerName);
 }
+ else { 
+	window.location = "bad.htm";
+}
+	  
+
+	  
+	  
+	
+
+

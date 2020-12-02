@@ -1,23 +1,231 @@
 <!DOCTYPE html>
 <html>
-<h1> your options for shows are </h1>
-<h2> Rick and Morty,     friends,       The Office</h2>
 
+<head>
+
+<style>
+
+.dropbtn {
+   background-color: #4CAF50;
+   color: white;
+   padding: 16px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+   display:block;
+}
+
+.dropdown {
+    position: right;
+    display: block;
+    float: right;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.rand{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+*{
+    padding: 0;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 0;
+}
+
+.navbar{
+	background-color: white;
+	height: 50px;
+}
+
+.navbar ul{
+	margin-bottom:0;
+}
+
+.navbar ul li{
+	list-style-type: none;
+	width: 150px;
+	float: left;
+	text-align: center;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: black;
+	line-height: 50px;
+	display: block;
+}
+
+.navbar li a:hover:not(.active) {
+	background-color: gray;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+h1 {
+	font-family: Century Gothic;
+    font-size: 70px;
+    text-align: center;
+    color: red;
+}
+
+h2{
+    margin-top: 10px;
+    font-size: 40px;
+    border:outset DodgerBlue;
+    color:DodgerBlue;
+    background-color: #cc0000;
+}
+
+body {
+	background: linear-gradient(#93B874 80%, #C9DCB9 97%, green 10%)
+}
+
+h1 {
+    margin: 0;
+	animation: colorchange 60s infinite;
+}
+
+@keyframes colorchange {
+     0%  {background: #33FFF3;}
+    25%  {background: #78281F;}
+    50%  {background: #117A65;}
+    75%  {background: #DC7633;}
+    100% {background: #9B59B6;}
+}   
+
+.margin{
+	margin-bottom: 1000px;
+}
+
+.pick{
+	float: right;
+	font-size: 100px;
+	margin-right:500px;
+	margin-top:130px;
+	color: red;
+}
+
+</style>
+
+</head>
+
+<h1 > WEBSITE NAME </h1>
+
+<div class="navbar">
+	<ul >
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Shows/Shows.html">Shows</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Movies/Movies.html">Movies</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Music/Music.html">Music</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Music/Music.html">Video Games</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Music/Music.html">Books</a></li>
+	  <li><a  href="file:///C:/Users/Trevor/Downloads/Music/Music.html">Sports</a></li>
+		<div class="dropdown">
+		    <button class="dropbtn">about</button>
+			<div class="dropdown-content">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+			</div>
+		</div>			
+  
+	</ul>
+</div>
+
+<h2> CHECK &nbsp OUT &nbsp OUR &nbsp FAVORITES  </h2>
 
 <body>
 
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.nbc.com/sites/nbcunbc/files/files/images/2016/1/19/MDot-TheOffice-640x360-MP.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.allthetests.com/quiz33/picture/pic_1451698302_1.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.parlons-basket.com/wp-content/uploads/2020/04/dennis-rodman-chicago-bulls.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.aiobot.com/wp-content/uploads/2018/07/Adidas-Game-of-Thrones.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="http://pm1.narvii.com/5811/e60300da24cb69f0dd4647da863adfa0c19416dc_hq.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.bamstudios.com/wp-content/uploads/New-Girl-Season-6.jpeg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="http://mandmglobal.com/wp-content/uploads/2017/01/Super-Bowl-LI.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://flickfreakdiaries.files.wordpress.com/2010/10/other-guys-banner.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://cdn.segmentnext.com/wp-content/uploads/2020/08/Black-Ops-Cold-War-Teaser-Art.jpg" width="460" height="320"></a></button>
+<button><a href="file:///C:/Users/Trevor/Downloads/The%20Office/The%20Office.html"><img id="image" src="https://www.throwbacks.com/content/images/2017/09/outsiders-cast-photo-ftr.jpg" width="460" height="320"></a></button>            
 
+<button id ="rand" class="rand" onclick="document.getElementById('demo').innerHTML=(Math.floor(Math.random() * 11));"> Random Pick</button>   
 
+<div class = "pick">
+	<p id="demo"></p>
+</div>
+ 
+<ul>
+<li>&nbsp1.&nbsp  The Office (show)</li>            
+<li>&nbsp2.&nbsp  Freinds (show) </li>
+<li>&nbsp3.&nbsp  Rodman (song)</li>
+<li>&nbsp4.&nbsp  Game of Thrones(show)</li>
+<li>&nbsp5.&nbsp  One Piece(show)</li>
+<li>&nbsp6.&nbsp  New Girl(show)</li>
+<li>&nbsp7.&nbsp  Super Bowl LI(sports)</li>
+<li>&nbsp8.&nbsp  The Other Guys (movie)</li>
+<li>&nbsp9.&nbsp  Black Ops Cold War(video game)</li>
+<li>&nbsp10.&nbsp  The Outsiders (book)</li>
+</ul>
 
+<div class="margin">
+	<p> 
+	enjoy our recommendations
+	</p>
+</div>
 
-
-
-<p>words words words
-
-</p>
-
+<button><a href="file:///C:/Users/Trevor/Downloads/Easter%20egg/Easter%20egg.html" class="button">Easter egg</a></button>
+ 
 <script src = "script.js"></script>
-
 
 </body>
 </html>
